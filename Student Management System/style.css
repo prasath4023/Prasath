@@ -1,0 +1,210 @@
+body {
+    background-image: url('i1.webp');
+  background-size: cover;
+} 
+/* home page css */
+.nav{
+    position: relative;
+    top: -5px;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.heading{
+    position: absolute;
+    color: aliceblue;
+    margin-top: 70px;
+    left: 37%;
+}
+.buttons{
+    position: relative;
+    background-color: gray;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    left: 35%;
+    top: 200px;
+    border-radius: 15px;
+    opacity: 0.9;
+    border-color: black;
+    border-style: solid;
+    border: 2px;
+}
+.buttons button{
+    padding: 10px;
+    margin: 5px;
+    background: lawngreen;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+/* LOGIN PAGE CSS */
+.lg form{
+    position: relative;
+    background-color: gray;
+    padding: 10px;
+    width: 20%;
+    left: 40%;
+    margin-top: 150px;
+    border-radius: 15px;
+   opacity: 0.9;
+   padding: 20px;
+}
+ 
+.lg form input{
+    padding: 5px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.lg form button{
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 7px;
+   margin-left: 40%;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+/* register PAGE CSS */
+.lg-reg form{
+    position: relative;
+    background-color: gray;
+    padding: 10px;
+    width: 20%;
+    left: 40%;
+    margin-top: 150px;
+    border-radius: 15px;
+   opacity: 0.9;
+   padding: 20px;
+}
+ 
+.lg-reg form input{
+    padding: 5px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.lg-reg form button{
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 7px;
+   margin-left: 40%;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+/* view student list */
+.view {
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#reg-form {
+    position: relative;
+    background-color: gray;
+    padding: 10px;
+    width: 20%;
+    left: 40%;
+    margin-top: 20px;
+    border-radius: 15px;
+    opacity: 0.9;
+    padding: 20px;
+    display: none;
+}
+#reg-form input {
+    padding: 5px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+#reg-form button {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 7px;
+    margin-left: 40%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.container {
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.view {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#reg-form {
+    display: none;
+    background-color: lightgray;
+    padding: 20px;
+    width: 325px;
+    margin: 20px auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    margin-top: 100px;
+    padding-right: 20px;
+}
+
+#reg-form input {
+    width: 97%;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#studentTable {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(251, 239, 6);
+}
+
+#studentTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#studentTable th, #studentTable td {
+    padding: 10px;
+    border: 1px solid black;
+}
