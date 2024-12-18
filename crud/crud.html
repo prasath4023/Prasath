@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD OPERATION</title>
+    <link rel="stylesheet" href="crud.css">
+</head>
+
+<body>
+    <form id="crudform">
+        <h1 class="heading">CRUD FORM</h1>
+        <label for="name">Name</label>
+        <input type="text" required placeholder="Enter name" id="name"> <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" placeholder="Enter your age" id="age"> <br><br>
+
+        <label for="mail">Email</label>
+        <input type="email" placeholder="Enter your mailid" id="mail"> <br><br>
+
+        <label for="mobile">Mobile Number</label>
+        <input type="text" placeholder="Enter your mobile number" id="mobile"> <br><br>
+
+        <label for="country">Country</label>
+        <input type="text" placeholder="Enter your country" id="country"> <br><br>
+
+        <button type="submit">Add</button>
+    </form><br>
+
+
+
+    <table border="1" id="tab">
+        <thead>
+            <h1 class="tab_heading">DATA LIST</h1>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Mobile Number</th>
+                <th>Country</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="datalist">
+
+        </tbody>
+    </table>
+
+    <script src="crud.js"></script>
+</body>
+
+</html>

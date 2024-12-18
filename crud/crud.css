@@ -1,0 +1,24 @@
+#crudform{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#crudform label{
+    color: rgb(74, 74, 242);
+}
+#crudform input{
+    border-radius: 5px;
+    padding: 5px;
+}
+.heading{
+    color: blue;
+}
+#tab{
+    margin-left: 35%;
+}
+.tab_heading{
+    margin-left: 40%;
+    color: rgb(86, 86, 251);
+}
+#tab th{
+    color: rgb(86, 86, 251);
+}
