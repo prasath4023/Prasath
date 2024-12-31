@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: white;
+    background: linear-gradient(to right, #0077b6, #023e8a);
+    background-attachment: fixed; 
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 2s ease-in;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    animation: fadeIn 2.5s ease-in;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    color: white;
+    background: #0077b6;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    animation: fadeIn 3s ease-in;
+}
+
+.hero .btn:hover {
+    background: #023e8a;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00b4d8;
+}
+
+.section {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: inherit; 
+}
+
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill {
+    background: rgba(255, 255, 255, 0.1); 
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    animation: slideIn 1.5s ease-in;
+    cursor: pointer;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.1); 
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 60%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    color: white;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.details{
+    color: #03d5ff;
+}
+.info{
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
