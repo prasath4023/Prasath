@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<style>
+    li {
+        margin-bottom: 5px;
+    }
+</style>
+
+<body>
+    <h1>My To-Do List</h1>
+    <a href="{% url 'add_task' %}">Add Task</a>
+    <ul>
+        {% for task in tasks %}
+        <li>
+            {% if task.completed %}
+            <del>{{ task.title }}</del>
+            {% else %}
+            {{ task.title }}
+            <a style="margin-left: 10px;" href="{% url 'complete_task' task.id %}">Mark as Complete</a>
+            {% endif %}
+            <a href="{% url 'delete_task' task.id %}" onclick="return confirm('Are you sure?')">Delete</a>
+        </li>
+        {% empty %}
+        <li>No tasks available.</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
