@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  input[type="number"] {
+    width: 160px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+  
+  button:hover {
+    background-color: #2ecc71;
+  }
+  
+  #gameInfo {
+    margin-top: 20px;
+  }
+  
+  #gameResult {
+    margin-top: 20px;
+  }
+  
+  #status {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  #score {
+    font-size: 16px;
+    color: #2980b9;
+  }
+  
